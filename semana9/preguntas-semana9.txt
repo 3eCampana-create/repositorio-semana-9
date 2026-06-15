@@ -1,0 +1,44 @@
+[14/6, 9:10 p.m.] jamer David Guerrero: cd ~/repositorio-semana-9/semana9
+
+cat > preguntas-semana9.txt
+Pregunta 1:
+Respuesta: B
+
+Pregunta 2:
+Respuesta: B
+
+Pregunta 3:
+Respuesta: B
+
+Pregunta 4:
+Respuesta: A
+[14/6, 9:11 p.m.] jamer David Guerrero: cat > ejecucion-servidor.txt
+1. Qué ocurre cuando ejecutas node server.js:
+El servidor Express se inicia y queda escuchando peticiones en el puerto 3000. La terminal queda bloqueada mostrando que el proceso está activo.
+
+2. Qué mensaje aparece en la terminal:
+Aparece el mensaje: Servidor ejecutándose en puerto 3000
+
+3. Qué sucede cuando visitas la ruta /estado:
+El servidor responde con un objeto JSON: {"estado":"Servidor funcionando","servicio":"API comunitaria"}. Esto confirma que la ruta está activa y devuelve datos estructurados.
+[14/6, 9:11 p.m.] jamer David Guerrero: cat > componentes-servidor.txt
+Sistema operativo: 
+Android con Termux es la base que administra el hardware del celular. Gestiona memoria y procesos para que Node.js pueda ejecutarse.
+
+Node.js:
+Es el entorno que permite ejecutar JavaScript en el servidor desde Termux. Interpreta server.js y maneja las peticiones.
+
+Aplicación server.js:
+Es el código que define las rutas y la lógica. Responde a las solicitudes como / y /estado usando Express.
+
+Puerto:
+Es el número 3000 que usa el servidor para escuchar. Funciona como una puerta donde llegan las peticiones del navegador.
+
+Logs:
+Son los mensajes que aparecen en consola como "Servidor ejecutándose". Registran la actividad para monitorear errores y funcionamiento.
+[14/6, 9:11 p.m.] jamer David Guerrero: cat > reflexion-semana9.txt
+Las plataformas tecnológicas comunitarias necesitan servidores estables porque manejan decisiones colectivas, votaciones y datos de la comunidad. Si el servidor se cae, se pierde la participación y la confianza de la gente. La estabilidad garantiza que el servicio esté disponible 24/7 para que cualquier líder pueda consultar o publicar información.
+
+La seguridad es clave porque un servidor expuesto puede ser atacado y filtrar datos sensibles de los participantes. Usar logs permite detectar intentos de intrusión y corregir fallos rápido. Monitorear el puerto y la ejecución evita que el servicio se detenga sin aviso. 
+
+Node.js y Express permiten crear servidores ligeros pero controlados desde el celular. En proyectos sociales, un servidor bien administrado significa democracia digital sin interrupciones. Si falla, la comunidad queda incomunicada y el proceso participativo se rompe.
