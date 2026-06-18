@@ -1,0 +1,15 @@
+
+Sistema operativo: 
+Android con Termux es la base que administra el hardware del celular. Gestiona memoria y procesos para que Node.js pueda ejecutarse.
+
+Node.js:
+Es el entorno que permite ejecutar JavaScript en el servidor desde Termux. Interpreta server.js y maneja las peticiones.
+
+Aplicación server.js:
+Es el código que define las rutas y la lógica. Responde a las solicitudes como / y /estado usando Express.
+
+Puerto:
+Es el número 3000 que usa el servidor para escuchar. Funciona como una puerta donde llegan las peticiones del navegador.
+
+Logs:
+Son los mensajes que aparecen en consola como "Servidor ejecutándose". Registran la actividad para monitorear errores y funcionamiento.
