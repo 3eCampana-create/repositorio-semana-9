@@ -1,0 +1,6 @@
+
+Las plataformas tecnológicas comunitarias necesitan servidores estables porque manejan decisiones colectivas, votaciones y datos de la comunidad. Si el servidor se cae, se pierde la participación y la confianza de la gente. La estabilidad garantiza que el servicio esté disponible 24/7 para que cualquier líder pueda consultar o publicar información.
+
+La seguridad es clave porque un servidor expuesto puede ser atacado y filtrar datos sensibles de los participantes. Usar logs permite detectar intentos de intrusión y corregir fallos rápido. Monitorear el puerto y la ejecución evita que el servicio se detenga sin aviso. 
+
+Node.js y Express permiten crear servidores ligeros pero controlados desde el celular. En proyectos sociales, un servidor bien administrado significa democracia digital sin interrupciones. Si falla, la comunidad queda incomunicada y el proceso participativo se rompe.
